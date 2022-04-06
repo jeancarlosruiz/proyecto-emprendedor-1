@@ -1,0 +1,42 @@
+.main {
+  width: 100%;
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.125rem;
+    margin-top: 4.6875rem;
+
+    .home__intro {
+      display: flex;
+      flex-direction: column;
+      gap: 2.125rem;
+      max-width: 40rem;
+
+      .home__intro-tittle {
+        margin: 0 auto;
+      }
+      .home__intro-paragraph {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      .home__intro-btn {
+        width: inherit;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media screen and (max-width: 37.5rem) {
+    width: 90%;
+    margin: 0 auto;
+
+    .home__img {
+      width: 19rem;
+    }
+  }
+}

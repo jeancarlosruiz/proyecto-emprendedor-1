@@ -1,0 +1,17 @@
+// Fonts Families
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+// variables
+:root {
+  // Colors
+  --darkblue__bg--form: hsl(217, 28%, 15%);
+  --darkblue__bg--main: hsl(218, 28%, 13%);
+  --darkblue__bg--footer: hsl(216, 53%, 9%);
+  --darkblue__bg--testimonial: hsl(219, 30%, 18%);
+
+  // Accent
+  --Cyan: hsl(176, 68%, 64%);
+  --Blue: hsl(198, 60%, 50%);
+  --lightred: hsl(0, 100%, 63%);
+  --white: hsl(0, 0%, 100%);
+}

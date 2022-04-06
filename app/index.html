@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>JSmartRD</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="header__nav">
+        <img class="header__nav-img" src="app/images/logo.png" alt="logo" />
+        <ul class="header__nav-list">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#benefits">Beneficios</a></li>
+          <li><a href="#testimonial">Testimonios</a></li>
+          <li><a href="#contact">Contactos</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- Home Section -->
+      <section id="home" class="home">
+        <img
+          class="home__img"
+          src="app/images/illustration-intro.png"
+          alt=""
+        />
+        <div class="home__intro">
+          <h1 class="home__intro-tittle">
+            Todo tu hogar al alcance de tus manos.
+          </h1>
+          <p class="home__intro-paragraph">
+            Somos una empresa enfocada en brindarles confort y calidad en el
+            manejo de su hogar. Haciendo de su hogar un lugar inteligente y
+            seguro.
+          </p>
+          <button class="home__intro-btn" type="button">
+            <a href="#contact">Contactanos</a>
+          </button>
+        </div>
+      </section>
+
+      <!-- Benefits section -->
+      <section id="benefits" class="benefits">
+        <div class="benefits__box">
+          <img
+            class="benefits__box-img"
+            src="app/images/icon-access-anywhere.svg"
+            alt=""
+          />
+          <span class="benefits__box-span"
+            >Toma el control desde cualquier dispositivo.</span
+          >
+        </div>
+        <div class="benefits__box">
+          <img
+            class="benefits__box-img"
+            src="app/images/icon-security.svg"
+            alt=""
+          />
+          <span class="benefits__box-span"
+            >Brinda seguridad y tranquilidad de primera.</span
+          >
+        </div>
+        <div class="benefits__box">
+          <img
+            class="benefits__box-img"
+            src="app/images/icon-collaboration.svg"
+            alt=""
+          />
+          <span class="benefits__box-span"
+            >Agrega a toda tu familia, monitorea a tus hijos y mascotas.</span
+          >
+        </div>
+        <div class="benefits__box">
+          <img
+            class="benefits__box-img"
+            src="app/images/icon-any-file.svg"
+            alt=""
+          />
+          <span class="benefits__box-span"
+            >Establece comandos de voz, almacena grabaciones y mucho mas.</span
+          >
+        </div>
+      </section>
+      <section class="article">
+        <img
+          class="article__img"
+          src="app/images/ilustration-stay-productive.png"
+          alt=""
+        />
+        <div class="article__box">
+          <h2 class="article__box-tittle">Desde la comodidad de tu hogar.</h2>
+          <p class="article__box-paragraph">
+            Desde donde estes, nuestro equipo se encargara de entregarte una
+            experiencia unica.
+          </p>
+          <p class="article__box-paragraph">
+            Contamos con un equipo altamente capacitado para brindarte un
+            servicio personalizado acorde a tu hogar y tus gustos.
+          </p>
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+      <article id="testimonial" class="testimonial">
+        <img class="testimonial__icon" src="app/images/bg-quotes.png" alt="" />
+        <blockquote class="testimonial__box">
+          <p class="testimonial__box-paragraph">
+            “Jsmart es unica, me encanto la manera en que quedo mi hogar,
+            definitivamente lo recomendare a mis amigos y familias, los
+            mejores.”
+          </p>
+          <div class="profile">
+            <img class="profile__img" src="app/images/huascarpic.jpg" alt="" />
+            <span class="profile__name">Huascar G.</span>
+          </div>
+        </blockquote>
+        <blockquote class="testimonial__box">
+          <p class="testimonial__box-paragraph">
+            “Increible, desde donde este con tan solo mi celular puedo controlar
+            todo, la aspiradora, las luces, incluso puedo controlar mi tv. Esto
+            es unico, me encantan. Excelente servicio.”
+          </p>
+          <div class="profile">
+            <img class="profile__img" src="app/images/sharinapic.jpg" alt="" />
+            <span class="profile__name">Sharina Y.</span>
+          </div>
+        </blockquote>
+        <blockquote class="testimonial__box">
+          <p class="testimonial__box-paragraph">
+            “Ahora se donde esta mis mascotas y que estan haciendo mientras no
+            estoy en casa, maravilloso, mis amigos quedaron impresionado como
+            quedo mi hogar.”
+          </p>
+          <div class="profile">
+            <img class="profile__img" src="app/images/jesepic.jpg" alt="" />
+            <span class="profile__name">Jese S.</span>
+          </div>
+        </blockquote>
+      </article>
+      <div id="contact" class="form__box">
+        <h2 class="form__box-tittle">A un solo clic!</h2>
+        <p class="form__box-paragraph">
+          Uno de nuestros profesionales estara en contacto contigo dentro de 24
+          horas laborables.
+        </p>
+        <form class="form" action="#">
+          <input class="input" type="text" placeholder="Nombre" required />
+          <input class="input" type="text" placeholder="Apellidos" required />
+          <input
+            class="input"
+            type="tel"
+            id="tel"
+            placeholder="Numero de Telefono"
+            required
+          />
+          <input
+            class="input"
+            type="email"
+            placeholder="Correo Electronico"
+            required
+          />
+          <button class="form__btn" type="button">Enviar</button>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <img class="footer__img" src="app/images/logo-mobile.png" alt="" />
+      <div class="footer__info">
+        <div class="location">
+          <img class="location__icon" src="app/images/icon-location.svg" alt="">
+          <p class="location__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="contact">
+          <span class="contact__number"><img class="contact__icon" src="app/images/icon-phone.svg" alt="">849-123-4567</span>
+          <span class="contact__email"><img class="contact__icon" src="app/images/icon-email.svg" alt="">info@jsmartrd.com</span>
+        </div>
+        <div>
+          <ul class="footer__nav-list">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#benefits">Beneficios</a></li>
+            <li><a href="#testimonial">Testimonios</a></li>
+            <li><a href="#contact">Contactos</a></li>
+          </ul>
+        </div>
+        <div class="icons">
+          <a href="#"><img src="app/images/icon-facebook.svg" alt="Facebook icon"></a>
+         <a href="#"><img src="app/images/icon-instagram.svg" alt="Instagram icon"></a>
+          <a href="#"><img src="app/images/icon-twitter.svg" alt="Twitter icon"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.hamburger{
+    display: none;
+    cursor: pointer;
+    @media (max-width: 60em) {
+        display: block;
+        position: relative;
+        .hamburger__line{
+            display: block;
+            width: 25px;
+            height: 3px;
+            margin: 5px auto;
+            background-color: var(--white);
+            transition: 0.4s all ease-in-out;
+        }
+    
+        &.active .hamburger__line:nth-child(2){
+            opacity: 0;
+        }
+    
+        &.active .hamburger__line:nth-child(1){
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        &.active .hamburger__line:nth-child(3){
+            transform: translateY(-8px) rotate(-45deg);
+        }
+    }
+}

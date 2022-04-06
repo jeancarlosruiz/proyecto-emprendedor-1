@@ -1,0 +1,43 @@
+.header {
+  width: 90%;
+  margin: 0 auto;
+
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+
+    .header__nav-img {
+      width: 10.75rem;
+      height: 1.745rem;
+    }
+
+    .header__nav-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+
+      @media (max-width: 60em) {
+        & {
+          background-color: var(--darkblue__bg--testimonial);
+          position: fixed;
+          left: -100%;
+          top: 70px;
+          flex-direction: column;
+          gap: 0;
+          width: 100%;
+          text-align: center;
+          transition: 0.4s all ease-in-out;
+        }
+
+        li {
+          margin: 1rem 0;
+        }
+
+        &.active {
+          left: 0;
+        }
+      }
+    }
+  }
+}

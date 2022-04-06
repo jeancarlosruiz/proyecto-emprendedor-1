@@ -1,0 +1,172 @@
+// Font Family
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+// HEADER STYLES //
+
+.header {
+  ul li {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+    & a {
+      color: var(--white);
+    }
+  }
+}
+
+// MAIN STYLES //
+.home__intro-tittle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--white);
+  text-align: center;
+
+  @media screen and (max-width: 37.5rem) {
+    font-size: 1.5rem;
+  }
+}
+
+.home__intro-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--white);
+  text-align: center;
+
+  @media screen and (max-width: 37.5rem) {
+    font-size: 0.875rem;
+  }
+}
+
+.home__intro-btn a{
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+
+  @media screen and (max-width: 37.5rem) {
+    font-size: 0.875rem;
+  }
+}
+
+// BENEFITS STYLES //
+.benefits__box-span {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--white);
+
+  @media screen and (max-width: 37.5rem) {
+    font-size: 1.125rem;
+  }
+}
+
+.article__box-tittle {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+  color: var(--white);
+  text-align: left;
+  margin-bottom: 1.1875rem;
+
+  @media screen and (max-width: 37.5rem) {
+    font-size: 1.125rem;
+    text-align: left;
+    line-height: 1.5;
+  }
+}
+
+.article__box-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--white);
+  text-align: left;
+
+  &:last-child {
+    margin-top: 1rem;
+  }
+
+  @media screen and (max-width: 37.5rem) {
+    font-size: 0.875rem;
+  }
+}
+
+// TESTIMONIAL STYLES
+.testimonial__box-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+  color: var(--white);
+  text-align: left;
+
+  @media screen and (max-width: 37.5rem) {
+    font-size: 0.625rem;
+  }
+}
+
+.profile__name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: 0.5px;
+  margin-left: 0.5rem;
+}
+
+
+// FORM STYLES
+.form__box-tittle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 1rem;
+
+  @media screen and (max-width: 37.5rem) {
+    font-size: 1.125rem;
+  }
+}
+
+.form__box-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+
+  @media screen and (max-width: 37.5rem) {
+    width: 90%;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+}
+
+.input{
+  font-family: "Open Sans", sans-serif;
+  font-size: .75rem;
+  font-weight: 400;;
+}
+
+.form__btn{
+  font-family: "Raleway", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+// FOOTER STYLES
+.location__paragraph,
+.contact__number,
+.contact__email,
+.footer__nav-list li a{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+  color: var(--white);
+}
